@@ -1,0 +1,22 @@
+.header{
+    height: 200px;
+    background-image: url('2att3n9.jpg');
+    /* background-image: url('../styles/2att3n9.jpg'); */
+    /* background-size: 10%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    background-position: top right;
+}
+h3{
+    color: magenta;
+    text-decoration: underline dotted green;
+}
+p{
+    color: crimson;
+}
+.page{
+    color: crimson;
+    font-weight: 700;
+    font-style: italic;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home">home</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="table.html">table</a></li>
+                <li><a href="semantic.html">semantic</a></li>
+                <li><a href="audio-video.html">media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Welcome to Site</h2>
+    <form>
+        <label for="Name">Your Name
+            <input type="text" placeholder="Your Name">
+        </label>
+        <label for="Your Email">Your Email
+            <input type="Your Email" placeholder="Your Email">
+        </label>
+        <fieldset>
+            <legend>Pick one</legend>
+            <label for="PSC">
+                  <input type="radio" name="Batch" id="PSC">
+                  PSC
+            </label>
+            <label for="JSC">
+                  <input type="radio" name="Batch" id="JSC">
+                  JSC
+            </label>
+            <label for="SSC">
+                  <input type="radio" name="Batch" id="SSC">
+                  SSC
+            </label>
+        </fieldset>
+        <FIeldset>
+            <Legend>Select your board</Legend>
+            <label for="Dhaka">
+                <input type="checkbox" name="board" id="Dhaka">
+                Dhaka
+            </label>
+            <label for="Sylhet">
+                <input type="checkbox" name="board" id="Sylhet">
+                Sylhet
+            </label>
+        </FIeldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+         <input type="submit" value="submit">
+    </form>
+</body>
+</html>
